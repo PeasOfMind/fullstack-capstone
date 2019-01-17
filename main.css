@@ -1,0 +1,109 @@
+body {
+    font-family: 'Gentium Basic', serif;
+}
+
+nav, footer {
+    padding: 0.5em 0;
+    background-color: lightgrey;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+section {
+    padding: 0.2em 1em;
+}
+
+h1 {
+    padding: 2em 0 1em;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-size: 1.2em;
+    padding: 0.5em 0;
+}
+
+p {
+    line-height: 1.2;
+}
+
+input, button {
+    border: 1px solid darkgrey;
+}
+
+button {
+    margin: 0.2em 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    padding: 0 0.5em;
+}
+
+.landing-header {
+    background: url(images/disposal-dump-garbage-128421.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+.facts-container {
+    background: black;
+    color: white;
+}
+
+.fact-container {
+    padding-bottom: 0.7em;
+}
+
+.app-description {
+    background: lightgrey;
+    padding-bottom: 0.7em;
+}
+
+#signup-form > input {
+    display: block;
+    margin: 5px 0 15px;
+}
+
+.items-listings {
+    background: darkgrey;
+    color: white
+}
+
+.item-ad {
+    background: white;
+    color: black;
+    margin: 1em 0;
+    padding: 0.3em;
+}
+
+.item {
+    margin: 0.3em 0;
+}
